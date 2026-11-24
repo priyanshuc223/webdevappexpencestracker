@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Expense Tracker 💲</h1>
+
+      <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter your expense" />
+
+        <input type="number" id="amountInput" placeholder="Enter amount" />
+
+        <button id="addBtn">Add Expense</button>
+      </div>
+
+      <div class="task-counter">
+        <p>Shoping : <button id="ShopingTasks">0</button></p>
+
+        <p>Bus fare : <button id="BusTasks">0</button></p>
+
+        <p>Eating out : <button id="EatingTasks">0</button></p>
+
+        <p>money saved : <button id="moneySaved">0</button></p>
+
+        <p>money lended : <button id="moneyLended">0</button></p>
+      </div>
+
+      <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
